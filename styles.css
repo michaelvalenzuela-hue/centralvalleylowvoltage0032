@@ -1,10 +1,41 @@
-body {
-  background-color: white;
+html {
+  background-color: red;
+  height: 100%;
 }
+
+body {
+  background-color: lightblue;
+  height: 90%;
+}
+
 h1 {
   text-align: center;
 }
+
 img {
   display: block;
   margin: auto;
+}
+
+#wrapper {
+  background-color: lightyellow;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: coral;
+  padding: 1rem;
+}
+
+main {
+  background-color: violet;
+  padding: 1rem;
+  flex: 1;
+}
+
+footer {
+  background-color: lightpink;
+  padding: 1rem;
 }
